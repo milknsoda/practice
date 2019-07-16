@@ -14,13 +14,16 @@ for i in range(test_case):
     n_days = int(input())
     # 3. N일동안의 가격을 공백문자를 기준으로 나눠 입력받는다.
     n_values = list(map(int,input().split()))
+    en_v = list(enumerate(n_values))
+    print(en_v[0][1])
+
     # 4. n_days 범위만큼 반복하여 각 인덱스의 값이 그 뒤의 나머지 값들과 비교하여 사고 팔 것을 결정한다.
-    result_a = 0
-    for k in range(n_days):
-        result = 0
-        for value in n_values:
-            if n_values[k] < value and n_values.index(value) > k:
-                if result < value - n_values[k]:
-                    result = value - n_values[k]
-        result_a += result
-    print(f'#{i+1} {result_a}')
+    # result_a = 0
+    # for k in range(n_days):
+    #     result = 0
+    #     for key, value in enumerate(n_values):
+    #         if key > k and n_values[k] < value:
+    #             if result < value - n_values[k]:
+    #                 result = value - n_values[k]
+    #     result_a += result
+    # print(f'#{i+1} {result_a}')
