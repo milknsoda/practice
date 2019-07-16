@@ -13,9 +13,11 @@ for i in range(test_case):
     # 2. 테스트 케이스만큼 반복하면서, 각 테스트 케이스마다 N을 입력받는다.
     n_days = int(input())
     # 3. N일동안의 가격을 공백문자를 기준으로 나눠 입력받는다.
-    n_values = list(map(int,input().split()))
-    en_v = list(enumerate(n_values))
-    print(en_v[0][1])
+    n_values = dict(enumerate(map(int,input().split())))
+    print(n_values)
+    # for key, value in n_values:
+
+
 
     # 4. n_days 범위만큼 반복하여 각 인덱스의 값이 그 뒤의 나머지 값들과 비교하여 사고 팔 것을 결정한다.
     # result_a = 0
