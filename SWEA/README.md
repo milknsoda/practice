@@ -6,23 +6,23 @@
 
 [문제 링크](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LrsUaDxcDFAXc&categoryId=AV5LrsUaDxcDFAXc&categoryType=CODE)
 
-#### 2063. [중간값 찾기](2063.중간값 찾기.py)
+#### 2063. [중간값 찾기](2063.중간값찾기.py)
 
 [문제 링크](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QPsXKA2UDFAUq&categoryId=AV5QPsXKA2UDFAUq&categoryType=CODE)
 
-#### 2068. [최대수 구하기](2068.최대수 구하기.py)
+#### 2068. [최대수 구하기](2068.최대수구하기.py)
 
 [문제 링크](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QQhbqA4QDFAUq&categoryId=AV5QQhbqA4QDFAUq&categoryType=CODE)
 
-#### 1204. [최빈수 구하기](1204.최빈수 구하기.py)
+#### 1204. [최빈수 구하기](1204.최빈수구하기.py)
 
 [문제 링크](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13zo1KAAACFAYh&categoryId=AV13zo1KAAACFAYh&categoryType=CODE)
 
-#### 1284. [수도 요금 경쟁](1284.수도 요금 경쟁.py)
+#### 1284. [수도 요금 경쟁](1284.수도요금경쟁.py)
 
 [문제 링크](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV189xUaI8UCFAZN&categoryId=AV189xUaI8UCFAZN&categoryType=CODE)
 
-#### 1928. [Base64 Decoder](1928.Base64 Decoder.py)
+#### 1928. [Base64 Decoder](1928.Base64Decoder.py)
 
 > * Base64 문자표를 dictionary로 저장
 > * 10진수를 2진수로 만드는 함수 작성
