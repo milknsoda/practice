@@ -1,2 +1,2 @@
-a = [1, 2, 3, 4, 5, 4, 3, 2, 1]
-print(a.index(4))
+t = 'U3VzcGljaW9uIGZvbGxvd3MgY2xvc2Ugb24gbWlzdHJ1c3Qu'
+print(len(t))
