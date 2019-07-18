@@ -2,6 +2,11 @@
 N_num = int(input())
 # 2. N개의 숫자들을 정렬하고 가운데 위치한 숫자를 출력한다.
 nums = list(map(int, input().split()))
-nums = sorted(nums)
-l = len(nums) // 2
-print(nums[l])
+mid = int(sum(nums)/len(nums))
+result = 0
+count = 200
+for num in nums:
+    if abs(num - mid) < count:
+        result = num
+        count = abs(num - mid)
+print(result)
